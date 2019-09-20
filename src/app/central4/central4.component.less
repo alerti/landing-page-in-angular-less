@@ -1,0 +1,120 @@
+.flex{
+    width:100%;
+    height:20%;
+    background:transparent;  
+    display:flex;
+    flex-direction:right;
+    margin-bottom:1%;
+    position: relative;
+}
+.first-div{
+    height:99%;
+    width:15%;
+    background:white;
+    position:relative;
+}
+.second{
+    height:100%;
+    width:84.7%;
+    float:left;
+    display:flex;
+    background:rgb(255, 255, 255);
+    box-shadow:0 0 2px 2px rgb(243, 227, 227);
+    border:none;
+}
+.inner-div1{
+    position: relative;
+    width:96%;
+    height:100%;
+    margin:auto;
+    border-left:medium solid black;
+    border-right:medium solid black;
+    background:rgba(255, 255, 255,.8);
+}
+.inner-div2{
+    width:80%;
+    height:100%;
+    border-top:medium solid red;
+    border-bottom:medium solid red;
+    position:relative;
+    margin:0% 10% 0% 10%;
+}
+
+.dot1{position:absolute;
+    border-radius:50%;
+    background:black;
+    height:9px;
+    width:9px;
+    top:-2%;
+    left:-2%;
+}
+.dot2{position:absolute;
+    border-radius:50%;
+    background:blue;
+    height:9px;
+    width:9px;
+    top:-2%;
+    right:-2%;
+}
+.dot3{position:absolute;
+    border-radius:50%;
+    background:red;
+    height:9px;
+    width:9px;
+    bottom:-2%;
+    left:-2%;
+}
+.dot4{position:absolute;
+    border-radius:50%;
+    background:green;
+    height:9px;
+    width:9px;
+    bottom:-2%;
+    right:-2%;
+}
+h1 {
+    font-family:helvetica;
+    text-transform: uppercase;
+    font-size: 100px;
+    text-align: center;
+    line-height: 1;
+    margin: 0;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+    position: absolute;
+    color: rgb(255, 50, 50);
+  }
+  h1:before, h1:after,
+  h1 span:before,
+  h1 span:after {
+    content: attr(stripes);
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    transform: rotate(5deg);
+  }
+  h1:before {
+    color: rgb(82, 32, 218);
+    height: 34%;
+    z-index: 5;
+  }
+  h1 span:before {
+    color: red;
+    height: 66%;
+    z-index: 3;
+  }
+  h1:after {
+    color: black;
+    height: 50%;
+    z-index: 4;
+  }
+  
+  h1 span:after {
+    color: green;
+    height: 80%;
+    z-index: 2;
+  }
+
+ 
